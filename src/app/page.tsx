@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Sidebar from "../components/sideBar";
 
 export default function Home() {
-  const sidebarItems = ["Dashboard", "Alunos", "Professores", "Notas"];
+  const sidebarItems = ["Início", "Alunos", "Professores", "Notas"];
 
   return (
     <div className="flex min-h-screen">

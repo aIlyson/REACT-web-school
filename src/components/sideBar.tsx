@@ -8,7 +8,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
   return (
     <aside className="bg-gray-800 text-white h-screen flex flex-col">
       <div className="p-4 bg-gray-900">
-        <h2 className="text-xl font-bold">Sistema</h2>
+        <h2 className=" text-center text-xl font-bold">Sistema</h2>
       </div>
       <nav className="flex-1 p-4">
         <ul>
