@@ -1,10 +1,19 @@
 import Header from "../components/header";
+import Sidebar from "../components/sideBar";
 
 export default function Home() {
+  const sidebarItems = ["Dashboard", "Alunos", "Professores", "Notas"];
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <Header title="Início" />
-      <h1 className="text-2xl text-white">hello world</h1>
-    </main>
+    <div className="flex min-h-screen">
+      <Sidebar items={sidebarItems} />
+
+      <main className="flex flex-col bg-white w-full">
+        <Header title="Sistema Escolar" />
+        <div className="text-center">
+          <h1 className="text-white text-2xl">Hello World</h1>
+        </div>
+      </main>
+    </div>
   );
 }
